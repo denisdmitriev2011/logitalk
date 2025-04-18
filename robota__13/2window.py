@@ -9,24 +9,24 @@ clients.connect(("localhost", 2011))
 
 window = CTk()
 window.geometry("400x550")
-window.configure(fg_color = "blue")
+window.configure(fg_color = "teal")
 
 
-f1 = CTkFrame(window, width=400, height=350, )
+f1 = CTkFrame(window, width=350, height=400, )
 f1.pack_propagate(False)
 f1.pack(pady = 10)
 
 
 
-text_pole = CTkTextbox(f1, width=300, height=350)
+text_pole = CTkTextbox(f1, width=300, height=380)
 text_pole.configure.(state = "disabled")
 text_pole.pack()
 
 
 
-f2 = CTkFrame(window,width=350, height=80)
+f2 = CTkFrame(window,width=370, height=70)
 f2.pack_propagate(False)
-f2.pack(pady = 10)
+f2.pack(pady = 20)
 
 
 entr = CTkEntry(f2, width=230, height=60 , placeholder_text="Введіть повідомлення....", 
