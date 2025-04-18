@@ -19,7 +19,7 @@ f1.pack(pady = 10)
 
 
 text_pole = CTkTextbox(f1, width=300, height=380)
-text_pole.configure.(state = "disabled")
+text_pole.configure(state = "disabled")
 text_pole.pack()
 
 
