@@ -42,9 +42,10 @@ ready_image = CTkImage(light_image= load_image , size=(20,25))
 
 
 def otoslat():
-    msg = str(entr.get())
+    msg = entr.get()
+    print(f"DENIS "+ str({msg}))
     entr.delete(0, END)
-    print(msg)
+    
 
     text_pole.configure(state = "normal")
     text_pole.insert(END, msg + "\n")
