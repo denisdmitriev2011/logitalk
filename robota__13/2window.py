@@ -48,9 +48,9 @@ def otoslat():
     
 
     text_pole.configure(state = "normal")
-    text_pole.insert(END, msg + "\n")
+    text_pole.insert(END, f"denis : {msg}" + "\n")
     text_pole.configure(state = "disable")
-    clients.send(f"ДЕНИС {msg.encode()}")
+    clients.send(msg.encode())
 
 
 
